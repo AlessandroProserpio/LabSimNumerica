@@ -1,10 +1,10 @@
 timeslices				300
 temperature				0.0
-imaginaryTimePropagation		4.0
+imaginaryTimePropagation		8.0
                                                                                                                  
-brownianMotionReconstructions           100
-delta_translation			1.1
-brownianBridgeReconstructions		160
+brownianMotionReconstructions           50
+delta_translation			0.5
+brownianBridgeReconstructions		100
 brownianBridgeAttempts			4
                                                                                                                  
 MCSTEPS					4000

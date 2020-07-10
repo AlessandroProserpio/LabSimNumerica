@@ -190,7 +190,7 @@ double external_potential_second(double val)
 // to modify its second derivative below!
 double variationalWaveFunction(double v)
 {
-	//return 1.0;
+	return 1.0;
 	//return exp(-0.5*v*v);
 
 	//LC of gaussians
@@ -200,7 +200,7 @@ double variationalWaveFunction(double v)
 
 double variationalWaveFunction_second(double v)
 {
-	//return 0;
+	return 0;
 	//return v*v*exp(-0.5*v*v) - exp(-0.5*v*v);
 
 	//LC of gaussians
